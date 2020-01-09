@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>290515596401-a5hplklorbm7p773pg801077060o5tqm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.290515596401-a5hplklorbm7p773pg801077060o5tqm</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDt1Afmy86dU_n71hDddp9a3reCe_ZvBH4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>290515596401</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.hdworks.FirestoreChat</string>
+	<key>PROJECT_ID</key>
+	<string>firestorechat-a3ee6</string>
+	<key>STORAGE_BUCKET</key>
+	<string>firestorechat-a3ee6.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:290515596401:ios:a197145bb40c62409697d0</string>
+	<key>DATABASE_URL</key>
+	<string>https://firestorechat-a3ee6.firebaseio.com</string>
+</dict>
+</plist>

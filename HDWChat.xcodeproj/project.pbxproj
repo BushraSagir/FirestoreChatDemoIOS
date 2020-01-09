@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59673E0D23C453EB00F93D70 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59673DF523C453EB00F93D70 /* ChatViewController.swift */; };
+		59673E0E23C453EB00F93D70 /* ChannelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59673DF623C453EB00F93D70 /* ChannelsViewController.swift */; };
+		59673E0F23C453EB00F93D70 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59673DF723C453EB00F93D70 /* LoginViewController.xib */; };
+		59673E1023C453EB00F93D70 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59673DF823C453EB00F93D70 /* LoginViewController.swift */; };
+		59673E1123C453EB00F93D70 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59673DF923C453EB00F93D70 /* NavigationController.swift */; };
+		59673E1223C453EB00F93D70 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59673DFB23C453EB00F93D70 /* Message.swift */; };
+		59673E1323C453EB00F93D70 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59673DFC23C453EB00F93D70 /* Channel.swift */; };
+		59673E1423C453EB00F93D70 /* DatabaseRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59673DFD23C453EB00F93D70 /* DatabaseRepresentation.swift */; };
+		59673E1523C453EB00F93D70 /* UIImage+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59673DFF23C453EB00F93D70 /* UIImage+Additions.swift */; };
+		59673E1623C453EB00F93D70 /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59673E0023C453EB00F93D70 /* UIView+Additions.swift */; };
+		59673E1723C453EB00F93D70 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59673E0123C453EB00F93D70 /* UIColor+Additions.swift */; };
+		59673E1823C453EB00F93D70 /* UICollectionView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59673E0223C453EB00F93D70 /* UICollectionView+Additions.swift */; };
+		59673E1923C453EB00F93D70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59673E0423C453EB00F93D70 /* Assets.xcassets */; };
+		59673E1A23C453EB00F93D70 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59673E0523C453EB00F93D70 /* GoogleService-Info.plist */; };
+		59673E1B23C453EB00F93D70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59673E0623C453EB00F93D70 /* LaunchScreen.storyboard */; };
+		59673E1C23C453EB00F93D70 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59673E0823C453EB00F93D70 /* Info.plist */; };
+		59673E1D23C453EB00F93D70 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59673E0A23C453EB00F93D70 /* AppSettings.swift */; };
+		59673E1E23C453EB00F93D70 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59673E0B23C453EB00F93D70 /* AppController.swift */; };
+		59673E1F23C453EB00F93D70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59673E0C23C453EB00F93D70 /* AppDelegate.swift */; };
+		A4EA94B60396BBDE89B3926E /* Pods_HDWChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919769A57D1E5F725BCC4C6A /* Pods_HDWChat.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35B05A8B58EBBCFD1A67CCDB /* Pods-HDWChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDWChat.release.xcconfig"; path = "Target Support Files/Pods-HDWChat/Pods-HDWChat.release.xcconfig"; sourceTree = "<group>"; };
+		59673DDC23C4539400F93D70 /* HDWChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDWChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59673DF523C453EB00F93D70 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		59673DF623C453EB00F93D70 /* ChannelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelsViewController.swift; sourceTree = "<group>"; };
+		59673DF723C453EB00F93D70 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		59673DF823C453EB00F93D70 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		59673DF923C453EB00F93D70 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		59673DFB23C453EB00F93D70 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		59673DFC23C453EB00F93D70 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		59673DFD23C453EB00F93D70 /* DatabaseRepresentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseRepresentation.swift; sourceTree = "<group>"; };
+		59673DFF23C453EB00F93D70 /* UIImage+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Additions.swift"; sourceTree = "<group>"; };
+		59673E0023C453EB00F93D70 /* UIView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Additions.swift"; sourceTree = "<group>"; };
+		59673E0123C453EB00F93D70 /* UIColor+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
+		59673E0223C453EB00F93D70 /* UICollectionView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Additions.swift"; sourceTree = "<group>"; };
+		59673E0423C453EB00F93D70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59673E0523C453EB00F93D70 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		59673E0723C453EB00F93D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59673E0823C453EB00F93D70 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59673E0A23C453EB00F93D70 /* AppSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		59673E0B23C453EB00F93D70 /* AppController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		59673E0C23C453EB00F93D70 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		919769A57D1E5F725BCC4C6A /* Pods_HDWChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HDWChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E36C8FDA23A443C63C548859 /* Pods-HDWChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDWChat.debug.xcconfig"; path = "Target Support Files/Pods-HDWChat/Pods-HDWChat.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59673DD923C4539400F93D70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EA94B60396BBDE89B3926E /* Pods_HDWChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18869EBD67AED61E136A2A0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				919769A57D1E5F725BCC4C6A /* Pods_HDWChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18D93EAEF9AE73DBADDA7E0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E36C8FDA23A443C63C548859 /* Pods-HDWChat.debug.xcconfig */,
+				35B05A8B58EBBCFD1A67CCDB /* Pods-HDWChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		59673DD323C4539300F93D70 = {
+			isa = PBXGroup;
+			children = (
+				59673DF323C453EB00F93D70 /* HDWChat */,
+				59673DDD23C4539400F93D70 /* Products */,
+				18D93EAEF9AE73DBADDA7E0D /* Pods */,
+				18869EBD67AED61E136A2A0F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		59673DDD23C4539400F93D70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59673DDC23C4539400F93D70 /* HDWChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59673DF323C453EB00F93D70 /* HDWChat */ = {
+			isa = PBXGroup;
+			children = (
+				59673DF423C453EB00F93D70 /* View Controllers */,
+				59673DFA23C453EB00F93D70 /* Models */,
+				59673DFE23C453EB00F93D70 /* Extensions */,
+				59673E0323C453EB00F93D70 /* Supporting Files */,
+				59673E0923C453EB00F93D70 /* Controllers */,
+			);
+			path = HDWChat;
+			sourceTree = "<group>";
+		};
+		59673DF423C453EB00F93D70 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				59673DF523C453EB00F93D70 /* ChatViewController.swift */,
+				59673DF623C453EB00F93D70 /* ChannelsViewController.swift */,
+				59673DF723C453EB00F93D70 /* LoginViewController.xib */,
+				59673DF823C453EB00F93D70 /* LoginViewController.swift */,
+				59673DF923C453EB00F93D70 /* NavigationController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		59673DFA23C453EB00F93D70 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				59673DFB23C453EB00F93D70 /* Message.swift */,
+				59673DFC23C453EB00F93D70 /* Channel.swift */,
+				59673DFD23C453EB00F93D70 /* DatabaseRepresentation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		59673DFE23C453EB00F93D70 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				59673DFF23C453EB00F93D70 /* UIImage+Additions.swift */,
+				59673E0023C453EB00F93D70 /* UIView+Additions.swift */,
+				59673E0123C453EB00F93D70 /* UIColor+Additions.swift */,
+				59673E0223C453EB00F93D70 /* UICollectionView+Additions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		59673E0323C453EB00F93D70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59673E0423C453EB00F93D70 /* Assets.xcassets */,
+				59673E0523C453EB00F93D70 /* GoogleService-Info.plist */,
+				59673E0623C453EB00F93D70 /* LaunchScreen.storyboard */,
+				59673E0823C453EB00F93D70 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59673E0923C453EB00F93D70 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				59673E0A23C453EB00F93D70 /* AppSettings.swift */,
+				59673E0B23C453EB00F93D70 /* AppController.swift */,
+				59673E0C23C453EB00F93D70 /* AppDelegate.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59673DDB23C4539400F93D70 /* HDWChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59673DF023C4539500F93D70 /* Build configuration list for PBXNativeTarget "HDWChat" */;
+			buildPhases = (
+				2C271048CF91643A3B157A8D /* [CP] Check Pods Manifest.lock */,
+				59673DD823C4539400F93D70 /* Sources */,
+				59673DD923C4539400F93D70 /* Frameworks */,
+				59673DDA23C4539400F93D70 /* Resources */,
+				28C13BE059ABC3A7A0E522B0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HDWChat;
+			productName = HDWChat;
+			productReference = 59673DDC23C4539400F93D70 /* HDWChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59673DD423C4539300F93D70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Bushra;
+				TargetAttributes = {
+					59673DDB23C4539400F93D70 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 59673DD723C4539300F93D70 /* Build configuration list for PBXProject "HDWChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59673DD323C4539300F93D70;
+			productRefGroup = 59673DDD23C4539400F93D70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59673DDB23C4539400F93D70 /* HDWChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59673DDA23C4539400F93D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59673E1923C453EB00F93D70 /* Assets.xcassets in Resources */,
+				59673E1B23C453EB00F93D70 /* LaunchScreen.storyboard in Resources */,
+				59673E0F23C453EB00F93D70 /* LoginViewController.xib in Resources */,
+				59673E1C23C453EB00F93D70 /* Info.plist in Resources */,
+				59673E1A23C453EB00F93D70 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28C13BE059ABC3A7A0E522B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HDWChat/Pods-HDWChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HDWChat/Pods-HDWChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HDWChat/Pods-HDWChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C271048CF91643A3B157A8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HDWChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59673DD823C4539400F93D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59673E1623C453EB00F93D70 /* UIView+Additions.swift in Sources */,
+				59673E1723C453EB00F93D70 /* UIColor+Additions.swift in Sources */,
+				59673E1E23C453EB00F93D70 /* AppController.swift in Sources */,
+				59673E1D23C453EB00F93D70 /* AppSettings.swift in Sources */,
+				59673E1F23C453EB00F93D70 /* AppDelegate.swift in Sources */,
+				59673E1023C453EB00F93D70 /* LoginViewController.swift in Sources */,
+				59673E1323C453EB00F93D70 /* Channel.swift in Sources */,
+				59673E1423C453EB00F93D70 /* DatabaseRepresentation.swift in Sources */,
+				59673E1123C453EB00F93D70 /* NavigationController.swift in Sources */,
+				59673E1223C453EB00F93D70 /* Message.swift in Sources */,
+				59673E1523C453EB00F93D70 /* UIImage+Additions.swift in Sources */,
+				59673E0E23C453EB00F93D70 /* ChannelsViewController.swift in Sources */,
+				59673E0D23C453EB00F93D70 /* ChatViewController.swift in Sources */,
+				59673E1823C453EB00F93D70 /* UICollectionView+Additions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		59673E0623C453EB00F93D70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59673E0723C453EB00F93D70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59673DEE23C4539500F93D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59673DEF23C4539500F93D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59673DF123C4539500F93D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E36C8FDA23A443C63C548859 /* Pods-HDWChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HDWChat/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdworks.FirestoreChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59673DF223C4539500F93D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35B05A8B58EBBCFD1A67CCDB /* Pods-HDWChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HDWChat/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdworks.FirestoreChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59673DD723C4539300F93D70 /* Build configuration list for PBXProject "HDWChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59673DEE23C4539500F93D70 /* Debug */,
+				59673DEF23C4539500F93D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59673DF023C4539500F93D70 /* Build configuration list for PBXNativeTarget "HDWChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59673DF123C4539500F93D70 /* Debug */,
+				59673DF223C4539500F93D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59673DD423C4539300F93D70 /* Project object */;
+}
